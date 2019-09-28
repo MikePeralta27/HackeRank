@@ -24,6 +24,7 @@ public class Solution {
 
         int arCount = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
         long[] ar = new long[arCount];
 
         String[] arItems = scanner.nextLine().split(" ");
